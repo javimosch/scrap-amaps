@@ -4,7 +4,7 @@
     "main": "index.js",
     "license": "MIT",
     "scripts": {
-        "start": "nodemon --exec './src/index.js' -e js --watch src"
+        "start": "node ./src/index.js --headless=1"
     },
     "dependencies": {
         "cheerio": "^1.0.0-rc.3",
